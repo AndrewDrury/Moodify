@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7957176B204BE74C003D72B9 /* 403527969-statistics-wallpapers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7957176A204BE74C003D72B9 /* 403527969-statistics-wallpapers.jpg */; };
+		7957176E204BE763003D72B9 /* 101689.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7957176C204BE763003D72B9 /* 101689.jpg */; };
+		7957176F204BE763003D72B9 /* writing-by-hand-has-proven-to-boost-brain-power-in-and-out-of-the-classr_1589_40074121_0_14100458_600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7957176D204BE763003D72B9 /* writing-by-hand-has-proven-to-boost-brain-power-in-and-out-of-the-classr_1589_40074121_0_14100458_600.jpg */; };
+		79571771204BEA47003D72B9 /* Frameworks in Resources */ = {isa = PBXBuildFile; fileRef = 79571770204BEA47003D72B9 /* Frameworks */; };
+		79571773204BEAC7003D72B9 /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79571772204BEAC7003D72B9 /* ToneAnalyzerV3.framework */; };
+		79571776204BEFBE003D72B9 /* ibmClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79571775204BEFBE003D72B9 /* ibmClass.swift */; };
+		79571778204BF397003D72B9 /* DataNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79571777204BF397003D72B9 /* DataNavController.swift */; };
+		7957177A204C61C6003D72B9 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79571779204C61C5003D72B9 /* iTunesArtwork@2x.png */; };
+		E92661A0204B5EFD005499C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926619F204B5EFD005499C8 /* AppDelegate.swift */; };
+		E92661A2204B5EFD005499C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92661A1204B5EFD005499C8 /* ViewController.swift */; };
+		E92661A5204B5EFD005499C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92661A3204B5EFD005499C8 /* Main.storyboard */; };
+		E92661A7204B5EFD005499C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92661A6204B5EFD005499C8 /* Assets.xcassets */; };
+		E92661AA204B5EFD005499C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92661A8204B5EFD005499C8 /* LaunchScreen.storyboard */; };
+		E92661B5204B5EFD005499C8 /* Mind_DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92661B4204B5EFD005499C8 /* Mind_DiaryTests.swift */; };
+		E92661C0204B5EFD005499C8 /* Mind_DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92661BF204B5EFD005499C8 /* Mind_DiaryUITests.swift */; };
+		E92661D2204B6A92005499C8 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92661D1204B6A92005499C8 /* LogViewController.swift */; };
+		E92661D4204B6AC8005499C8 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92661D3204B6AC8005499C8 /* StatsViewController.swift */; };
+		E92661D6204B6B11005499C8 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92661D5204B6B11005499C8 /* ResourcesViewController.swift */; };
+		E9478B07204BE38700FEE564 /* stats2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9478B06204BE38700FEE564 /* stats2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E92661B1204B5EFD005499C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9266194204B5EFD005499C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E926619B204B5EFD005499C8;
+			remoteInfo = "Mind Diary";
+		};
+		E92661BC204B5EFD005499C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9266194204B5EFD005499C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E926619B204B5EFD005499C8;
+			remoteInfo = "Mind Diary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7957176A204BE74C003D72B9 /* 403527969-statistics-wallpapers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "403527969-statistics-wallpapers.jpg"; path = "Photos/403527969-statistics-wallpapers.jpg"; sourceTree = SOURCE_ROOT; };
+		7957176C204BE763003D72B9 /* 101689.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 101689.jpg; path = Photos/101689.jpg; sourceTree = SOURCE_ROOT; };
+		7957176D204BE763003D72B9 /* writing-by-hand-has-proven-to-boost-brain-power-in-and-out-of-the-classr_1589_40074121_0_14100458_600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "writing-by-hand-has-proven-to-boost-brain-power-in-and-out-of-the-classr_1589_40074121_0_14100458_600.jpg"; path = "Photos/writing-by-hand-has-proven-to-boost-brain-power-in-and-out-of-the-classr_1589_40074121_0_14100458_600.jpg"; sourceTree = SOURCE_ROOT; };
+		79571770204BEA47003D72B9 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
+		79571772204BEAC7003D72B9 /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Frameworks/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
+		79571775204BEFBE003D72B9 /* ibmClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibmClass.swift; sourceTree = "<group>"; };
+		79571777204BF397003D72B9 /* DataNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataNavController.swift; sourceTree = "<group>"; };
+		79571779204C61C5003D72B9 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "Photos/Screen Shot 2018-03-04 at 11.38.52 AM/ios/iTunesArtwork@2x.png"; sourceTree = SOURCE_ROOT; };
+		E926619C204B5EFD005499C8 /* Mind Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E926619F204B5EFD005499C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E92661A1204B5EFD005499C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E92661A4204B5EFD005499C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E92661A6204B5EFD005499C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E92661A9204B5EFD005499C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E92661AB204B5EFD005499C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92661B0204B5EFD005499C8 /* Mind DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind DiaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92661B4204B5EFD005499C8 /* Mind_DiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_DiaryTests.swift; sourceTree = "<group>"; };
+		E92661B6204B5EFD005499C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92661BB204B5EFD005499C8 /* Mind DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92661BF204B5EFD005499C8 /* Mind_DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_DiaryUITests.swift; sourceTree = "<group>"; };
+		E92661C1204B5EFD005499C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92661D1204B6A92005499C8 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		E92661D3204B6AC8005499C8 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		E92661D5204B6B11005499C8 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		E9478B06204BE38700FEE564 /* stats2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stats2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9266199204B5EFD005499C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79571773204BEAC7003D72B9 /* ToneAnalyzerV3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92661AD204B5EFD005499C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92661B8204B5EFD005499C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9266193204B5EFD005499C8 = {
+			isa = PBXGroup;
+			children = (
+				79571772204BEAC7003D72B9 /* ToneAnalyzerV3.framework */,
+				E926619E204B5EFD005499C8 /* Mind Diary */,
+				E92661B3204B5EFD005499C8 /* Mind DiaryTests */,
+				E92661BE204B5EFD005499C8 /* Mind DiaryUITests */,
+				E926619D204B5EFD005499C8 /* Products */,
+				79571770204BEA47003D72B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E926619D204B5EFD005499C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E926619C204B5EFD005499C8 /* Mind Diary.app */,
+				E92661B0204B5EFD005499C8 /* Mind DiaryTests.xctest */,
+				E92661BB204B5EFD005499C8 /* Mind DiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E926619E204B5EFD005499C8 /* Mind Diary */ = {
+			isa = PBXGroup;
+			children = (
+				E926619F204B5EFD005499C8 /* AppDelegate.swift */,
+				E92661A1204B5EFD005499C8 /* ViewController.swift */,
+				E92661D1204B6A92005499C8 /* LogViewController.swift */,
+				79571777204BF397003D72B9 /* DataNavController.swift */,
+				E9478B06204BE38700FEE564 /* stats2ViewController.swift */,
+				79571775204BEFBE003D72B9 /* ibmClass.swift */,
+				E92661D3204B6AC8005499C8 /* StatsViewController.swift */,
+				E92661D5204B6B11005499C8 /* ResourcesViewController.swift */,
+				E92661A3204B5EFD005499C8 /* Main.storyboard */,
+				79571779204C61C5003D72B9 /* iTunesArtwork@2x.png */,
+				7957176C204BE763003D72B9 /* 101689.jpg */,
+				7957176D204BE763003D72B9 /* writing-by-hand-has-proven-to-boost-brain-power-in-and-out-of-the-classr_1589_40074121_0_14100458_600.jpg */,
+				7957176A204BE74C003D72B9 /* 403527969-statistics-wallpapers.jpg */,
+				E92661A6204B5EFD005499C8 /* Assets.xcassets */,
+				E92661A8204B5EFD005499C8 /* LaunchScreen.storyboard */,
+				E92661AB204B5EFD005499C8 /* Info.plist */,
+			);
+			path = "Mind Diary";
+			sourceTree = "<group>";
+		};
+		E92661B3204B5EFD005499C8 /* Mind DiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E92661B4204B5EFD005499C8 /* Mind_DiaryTests.swift */,
+				E92661B6204B5EFD005499C8 /* Info.plist */,
+			);
+			path = "Mind DiaryTests";
+			sourceTree = "<group>";
+		};
+		E92661BE204B5EFD005499C8 /* Mind DiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E92661BF204B5EFD005499C8 /* Mind_DiaryUITests.swift */,
+				E92661C1204B5EFD005499C8 /* Info.plist */,
+			);
+			path = "Mind DiaryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E926619B204B5EFD005499C8 /* Mind Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92661C4204B5EFD005499C8 /* Build configuration list for PBXNativeTarget "Mind Diary" */;
+			buildPhases = (
+				E9266198204B5EFD005499C8 /* Sources */,
+				E9266199204B5EFD005499C8 /* Frameworks */,
+				E926619A204B5EFD005499C8 /* Resources */,
+				79571774204BEAD6003D72B9 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mind Diary";
+			productName = "Mind Diary";
+			productReference = E926619C204B5EFD005499C8 /* Mind Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E92661AF204B5EFD005499C8 /* Mind DiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92661C7204B5EFD005499C8 /* Build configuration list for PBXNativeTarget "Mind DiaryTests" */;
+			buildPhases = (
+				E92661AC204B5EFD005499C8 /* Sources */,
+				E92661AD204B5EFD005499C8 /* Frameworks */,
+				E92661AE204B5EFD005499C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92661B2204B5EFD005499C8 /* PBXTargetDependency */,
+			);
+			name = "Mind DiaryTests";
+			productName = "Mind DiaryTests";
+			productReference = E92661B0204B5EFD005499C8 /* Mind DiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E92661BA204B5EFD005499C8 /* Mind DiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92661CA204B5EFD005499C8 /* Build configuration list for PBXNativeTarget "Mind DiaryUITests" */;
+			buildPhases = (
+				E92661B7204B5EFD005499C8 /* Sources */,
+				E92661B8204B5EFD005499C8 /* Frameworks */,
+				E92661B9204B5EFD005499C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92661BD204B5EFD005499C8 /* PBXTargetDependency */,
+			);
+			name = "Mind DiaryUITests";
+			productName = "Mind DiaryUITests";
+			productReference = E92661BB204B5EFD005499C8 /* Mind DiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9266194204B5EFD005499C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bill Sheng";
+				TargetAttributes = {
+					E926619B204B5EFD005499C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E92661AF204B5EFD005499C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E926619B204B5EFD005499C8;
+					};
+					E92661BA204B5EFD005499C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E926619B204B5EFD005499C8;
+					};
+				};
+			};
+			buildConfigurationList = E9266197204B5EFD005499C8 /* Build configuration list for PBXProject "Mind Diary" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9266193204B5EFD005499C8;
+			productRefGroup = E926619D204B5EFD005499C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E926619B204B5EFD005499C8 /* Mind Diary */,
+				E92661AF204B5EFD005499C8 /* Mind DiaryTests */,
+				E92661BA204B5EFD005499C8 /* Mind DiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E926619A204B5EFD005499C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92661AA204B5EFD005499C8 /* LaunchScreen.storyboard in Resources */,
+				E92661A7204B5EFD005499C8 /* Assets.xcassets in Resources */,
+				7957176E204BE763003D72B9 /* 101689.jpg in Resources */,
+				7957177A204C61C6003D72B9 /* iTunesArtwork@2x.png in Resources */,
+				E92661A5204B5EFD005499C8 /* Main.storyboard in Resources */,
+				79571771204BEA47003D72B9 /* Frameworks in Resources */,
+				7957176F204BE763003D72B9 /* writing-by-hand-has-proven-to-boost-brain-power-in-and-out-of-the-classr_1589_40074121_0_14100458_600.jpg in Resources */,
+				7957176B204BE74C003D72B9 /* 403527969-statistics-wallpapers.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92661AE204B5EFD005499C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92661B9204B5EFD005499C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79571774204BEAD6003D72B9 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ToneAnalyzerV3.framework",
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9266198204B5EFD005499C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92661D6204B6B11005499C8 /* ResourcesViewController.swift in Sources */,
+				E92661D2204B6A92005499C8 /* LogViewController.swift in Sources */,
+				E92661A2204B5EFD005499C8 /* ViewController.swift in Sources */,
+				E9478B07204BE38700FEE564 /* stats2ViewController.swift in Sources */,
+				79571776204BEFBE003D72B9 /* ibmClass.swift in Sources */,
+				79571778204BF397003D72B9 /* DataNavController.swift in Sources */,
+				E92661D4204B6AC8005499C8 /* StatsViewController.swift in Sources */,
+				E92661A0204B5EFD005499C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92661AC204B5EFD005499C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92661B5204B5EFD005499C8 /* Mind_DiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92661B7204B5EFD005499C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92661C0204B5EFD005499C8 /* Mind_DiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E92661B2204B5EFD005499C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E926619B204B5EFD005499C8 /* Mind Diary */;
+			targetProxy = E92661B1204B5EFD005499C8 /* PBXContainerItemProxy */;
+		};
+		E92661BD204B5EFD005499C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E926619B204B5EFD005499C8 /* Mind Diary */;
+			targetProxy = E92661BC204B5EFD005499C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E92661A3204B5EFD005499C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92661A4204B5EFD005499C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E92661A8204B5EFD005499C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92661A9204B5EFD005499C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E92661C2204B5EFD005499C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E92661C3204B5EFD005499C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E92661C5204B5EFD005499C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WF6JG3LS88;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Mind Diary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathonTeam.Moodify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E92661C6204B5EFD005499C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WF6JG3LS88;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Mind Diary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathonTeam.Moodify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E92661C8204B5EFD005499C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind DiaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackathonTeam.Mind-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind Diary.app/Mind Diary";
+			};
+			name = Debug;
+		};
+		E92661C9204B5EFD005499C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind DiaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackathonTeam.Mind-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind Diary.app/Mind Diary";
+			};
+			name = Release;
+		};
+		E92661CB204B5EFD005499C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind DiaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackathonTeam.Mind-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mind Diary";
+			};
+			name = Debug;
+		};
+		E92661CC204B5EFD005499C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mind DiaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackathonTeam.Mind-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mind Diary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9266197204B5EFD005499C8 /* Build configuration list for PBXProject "Mind Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92661C2204B5EFD005499C8 /* Debug */,
+				E92661C3204B5EFD005499C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92661C4204B5EFD005499C8 /* Build configuration list for PBXNativeTarget "Mind Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92661C5204B5EFD005499C8 /* Debug */,
+				E92661C6204B5EFD005499C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92661C7204B5EFD005499C8 /* Build configuration list for PBXNativeTarget "Mind DiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92661C8204B5EFD005499C8 /* Debug */,
+				E92661C9204B5EFD005499C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92661CA204B5EFD005499C8 /* Build configuration list for PBXNativeTarget "Mind DiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92661CB204B5EFD005499C8 /* Debug */,
+				E92661CC204B5EFD005499C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9266194204B5EFD005499C8 /* Project object */;
+}
