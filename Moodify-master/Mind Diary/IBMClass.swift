@@ -1,5 +1,5 @@
 //
-//  ibmClass.swift
+//  IBMClass.swift
 //  Mind Diary
 //
 //  Created by Richard Xie on 2018-03-04.
